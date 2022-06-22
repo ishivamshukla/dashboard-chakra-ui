@@ -28,7 +28,7 @@ import {
 import Signup from '../components/Signup';
   
   export default function WithSubnavigation() {
-    const { isOpen, onOpen, onClose, onToggle } = useDisclosure();
+    const { isOpen, onOpen, onClose } = useDisclosure();
   
     return (
       <Box>
